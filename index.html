@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Calculate it- A Responsive Calculator</title>
+</head>
+<body>
+		<form name="Calc" class="form">
+		<input type="text" name="input" class="text" placeholder="Calculate here">
+<br>		
+<input type="button" name="one" value="1" class="Calc" onclick="document.Calc.input.value +='1'">
+<input type="button" name="two" value="2" class="Calc" onclick="document.Calc.input.value +='2'">
+<input type="button" name="three" value="3" class="Calc" onclick="document.Calc.input.value +='3'">
+<input type="button" name="times" value="*" class="Calc" onclick="document.Calc.input.value +='*'">
+		
+<br>
+
+<input type="button" name="four" value="4" class="Calc" onclick="document.Calc.input.value +='4'">
+<input type="button" name="five" value="5" class="Calc" onclick="document.Calc.input.value +='5'">
+<input type="button" name="six" value="6" class="Calc" onclick="document.Calc.input.value +='6'">
+<input type="button" name="minus" value="-" class="Calc" onclick="document.Calc.input.value +='-'">
+		
+<br>
+
+<input type="button" name="seven" value="7" class="Calc" onclick="document.Calc.input.value +='7'">
+<input type="button" name="eight" value="8" class="Calc" onclick="document.Calc.input.value +='8'">
+<input type="button" name="nine" value="9" class="Calc" onclick="document.Calc.input.value +='9'">
+<input type="button" name="plus" value="+"class="Calc" onclick="document.Calc.input.value +='+'">
+	
+<br>
+
+<input type="button" name="clear" value ="c" class="Calc active" onclick="document.Calc.input.value =''">
+<input type="button" name="zero" value="0" class="Calc" onclick="document.Calc.input.value +='0'">
+<input type="button" name="equal" value="=" class="Calc act" onclick="document.Calc.input.value = eval(Calc.input.value)">
+<input type="button" name="division" value="/" class="Calc" onclick="document.Calc.input.value +='/'">	
+<br>
+	</form>
+</body>
+</html>

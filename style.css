@@ -1,0 +1,87 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+body {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(#090921,#090e21);
+}
+.form {
+	z-index: 100;
+	border: 4px solid cadetblue;
+    outline: none;
+    background: chartreuse;
+}
+.text {
+	color: white;
+    outline: none;
+    padding: 50px 45px;
+    background: rgba(115,0,84,1.5);
+    border: transparent;
+    margin: auto;
+    font-family: auto;
+    height: 50px;
+    width: 450px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.Calc {
+    color: black;
+    outline: none;
+    padding: 10px 45px;
+    background: rgba(0,0,0,0.3);
+    border: transparent;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.Calc,.txt {
+	margin: 10px;
+}
+.active {
+	color: floralwhite;
+	background: red;
+	font-size: 32px;
+	direction: rtl;
+}
+.act {
+	color: floralwhite;
+	background: blue;
+	font-size: 30px;
+}
+.Calc:hover {
+	color: chartreuse;
+    background:	brown;
+} 
+
+
+
+@media only screen and (max-width: 500px)
+{
+	.text 
+	{
+	width: 373px;
+	color: white;
+    outline: none;
+    background: green;
+    margin-top: 20px;
+	}
+
+	.Calc 
+	{
+	background: floralwhite;
+	color: darkred;
+	margin: auto;
+	width: 15px;
+	}
+}
